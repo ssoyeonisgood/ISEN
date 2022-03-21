@@ -1,13 +1,13 @@
 import Maze
 
-def view(grid)
+def view(grid):
      for i in range(len(grid)):
         for j in range(len(grid[i])):
 
             if grid[i][j] == Maze.EMPTY:
                 print("  ", end = "")
 
-            elif grid[i][j] == Mazw.WALL:
+            elif grid[i][j] == Maze.WALL:
                 print("##", end = "")
 
             elif grid[i][j] == Maze.START:
