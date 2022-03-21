@@ -13,7 +13,6 @@ WEST = 'w'
 
 if __name__ == "__main__":
     grid = [
-        [ WALL,  WALL,  EMPTY,  WALL,  WALL,  EMPTY,  WALL,  EMPTY,  WALL, WALL],
         [START, EMPTY,  WALL,  WALL, EMPTY, EMPTY, EMPTY, EMPTY,  WALL, WALL],
         [ WALL, EMPTY, WALL, EMPTY, EMPTY, EMPTY,  WALL, EMPTY,  WALL, WALL],
         [ WALL,  WALL,  WALL,  WALL, EMPTY,  WALL, EMPTY,  WALL, EMPTY, WALL],
@@ -21,6 +20,7 @@ if __name__ == "__main__":
         [ WALL,  WALL, EMPTY,  WALL,  WALL, EMPTY, EMPTY,  EMPTY, WALL, WALL],
         [ EMPTY,  WALL, EMPTY, EMPTY, EMPTY, EMPTY,  WALL,  WALL, EMPTY,  END],
         [ WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL, WALL],
+        [ WALL,  WALL,  EMPTY,  WALL,  WALL,  EMPTY,  WALL,  EMPTY,  WALL, WALL],
     ]
                     
     Viewer.view(grid)
