@@ -65,9 +65,9 @@ if __name__ == "__main__":
             print("You fail into the chasm of doom") # Out of bounds.
             
         else:
-            cell = grid[Row][Col]
+            cell = grid[currnetRow][currnetCol]
             if cell == EMPTY:
-                grid[Row][Col] = VISITED
+                grid[currentRow][currentCol] = VISITED
 
             elif cell == WALL:
                 done = True
